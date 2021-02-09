@@ -3,7 +3,7 @@ import Sidebar from "../layouts/Sidebar";
 
 const Projects = () => {
   return (
-    <div className="contenedor-app">
+    <div className="container-app">
       <Sidebar />
 
       <div className="main-section">
