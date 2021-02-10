@@ -1,5 +1,9 @@
 import React from "react";
+import Bar from "../layouts/Bar";
 import Sidebar from "../layouts/Sidebar";
+import FormTask from "../tasks/FormTask";
+
+
 
 const Projects = () => {
   return (
@@ -7,7 +11,9 @@ const Projects = () => {
       <Sidebar />
 
       <div className="main-section">
+        <Bar/>
         <main>
+          <FormTask/>
           <div className="container-tasks"></div>
         </main>
       </div>
